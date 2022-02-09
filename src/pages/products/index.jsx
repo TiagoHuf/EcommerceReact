@@ -41,6 +41,7 @@ function Products() {
 
     useEffect(() => {
         setTotal(product.value * amount);
+        setProduct({...product, quantidade: amount, total: product.value * amount})
     }, [amount]);
 
     function addShop() {

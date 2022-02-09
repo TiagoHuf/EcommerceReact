@@ -7,5 +7,10 @@ export const useStyles = makeStyles((theme) => ({
   root: {
     display: 'flex',
     padding: 15
-  }
+  },
+  divider: {
+    margin: theme.spacing(2),
+    width: 100,
+    height: 10,
+  },
 }));
